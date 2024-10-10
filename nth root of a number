@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+
+    float x,n;
+    printf("enter base and power");
+    scanf("%f %f", &x, &n);
+    printf("%.2lf", pow(x,(1/n)));
+
+    return 0;
+}
