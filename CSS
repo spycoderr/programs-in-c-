@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#heading{
+
+  /*border: 1px solid black;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  padding: 5px;
+  width : 200px;
+
+}
+
+#email{
+  height: 7vh;
+  /*border: 1px solid black;*/
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+#password{
+
+  height: 7vh;
+  /*border: 1px solid black;*/
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.divider {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  width : 400px;
+}
+
+.divider::before,
+.divider::after {
+  color: aliceblue;
+  margin-left: 20px;
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.divider:not(:empty)::before {
+  margin-right: 10px;
+  color: aliceblue;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+.divider-text {
+  font-size: 16px;
+
+  color: aliceblue;
+}
+
+#signIn{
+
+width: 200px;
+
+}
+
+.page {
+
+    display: flex;
+
+}
+
+#leftSide{
+
+  flex: 1;
+  width: 50%;
+  height: 90vh;
+  /*border: 2px solid red;*/
+}
+
+#rightSide{
+
+
+  flex: 1;
+  width: 50%;
+  /*border: 2px solid blue;*/
+
+
+}
+
+#forgot{
+
+  font-size: 5px;
+}
+
+#google{
+
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 7vh;
+  width: 300px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+input::placeholder{
+
+  /*margin-left: 10px;*/
+  padding: 10px;
+
+}
